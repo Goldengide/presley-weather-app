@@ -18,10 +18,11 @@ const assets = [
     "/assets/img/mstile-150x150.png",
     "/assets/img/safari-pinned-tab.svg",
     "/vendor/fonts/axis/style.css",
-    "/vendor/fonts/axis/axis.woff",
-    "https://use.fontawesome.com/releases/v5.11.2/css/all.css",
-    "https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.css"
+    "/vendor/fonts/axis/axis.woff"
 ]
+
+    // "https://use.fontawesome.com/releases/v5.11.2/css/all.css",
+    // "https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.css"
 self.addEventListener("install", installEvent => {
     installEvent.waitUntil(
         caches.open(staticDevWeather).then(cache => {
