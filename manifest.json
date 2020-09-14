@@ -3,7 +3,7 @@
     "short_name": "PWC",
     "apple-mobile-web-app-title": "Presley Weather Cast",
     "apple-mobile-web-app-capable": "standalone",
-    "start_url": "/",
+    "start_url": "/presley-weather-app",
     "theme_color": "#222",
     "background_color": "#666",
     "orientation":"portrait-primary",
