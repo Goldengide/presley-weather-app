@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Goldengide/presley-weather-app/issues"
   },
-  "homepage": "https://github.com/Goldengide/presley-weather-app#readme"
+  "homepage": "https://github.com/Goldengide/presley-weather-app#readme",
+  "dependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
