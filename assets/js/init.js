@@ -1,7 +1,7 @@
 if ("serviceWorker" in navigator) {
     window.addEventListener("load", function() {
       navigator.serviceWorker
-        .register("weather.sw.js", {scope: '/'})
+        .register("weather.sw.js", {scope: '/presley-weather-app'})
         .then(res => console.log("service worker registered"))
         .catch(err => console.log("service worker not registered", err))
     })
