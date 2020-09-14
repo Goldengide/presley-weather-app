@@ -1,0 +1,19 @@
+{
+  "name": "presly-weather-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "weather.sw.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Goldengide/presley-weather-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Goldengide/presley-weather-app/issues"
+  },
+  "homepage": "https://github.com/Goldengide/presley-weather-app#readme"
+}
