@@ -1,0 +1,29 @@
+{
+    "name": "Presley Weather Cast",
+    "short_name": "PWC",
+    "apple-mobile-web-app-title": "Presley Weather Cast",
+    "apple-mobile-web-app-capable": "standalone",
+    "start_url": "/",
+    "theme_color": "#222",
+    "background_color": "#666",
+    "orientation":"portrait-primary",
+    "display": "standalone",
+    "icon": [{
+        "src": "assets/img/presley-weather-icon.png",
+        "type": "image/png",
+        "sizes": "150x150"
+    }],
+    "dir": "ltr",
+    "description": "This app was created to test my knowledge in Progressive Web Apps, Lol I'm still coming up",
+    "lang": "en-US",
+    "scope": "/",
+    "serviceworker": {
+        "src": 
+    }
+
+
+
+
+
+
+}

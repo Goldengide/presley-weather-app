@@ -1,0 +1,33 @@
+body {
+    font-family: 'Axis';
+}
+.dark {
+    background-color: #333;
+    color: #ffffff;
+}
+.dark button[type = 'submit'], .dark button[type = 'submit']:active, .dark button[type = 'submit']:focus, .dark button[type = 'submit']:hover   {
+    color: #fff;
+    background-color: transparent;
+    border:none;
+    outline: none;
+}
+
+.grey {
+    background-color: #cccccc;
+    color: #ffffff;
+
+}
+.grey button[type = 'submit'], .grey button[type = 'submit']:active, .grey button[type = 'submit']:focus  {
+    color: #fff;
+    background-color: transparent;
+    border:none;
+}
+
+.white {
+    background-color: white
+}
+.white button[type = 'submit'], .white button[type = 'submit']:active, .white button[type = 'submit']:focus  {
+    color: #000;
+    background-color: transparent;
+    border:none;
+}

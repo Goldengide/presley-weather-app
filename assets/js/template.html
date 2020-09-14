@@ -1,0 +1,110 @@
+<template id="digital-watch-template">
+    <style>
+        .time-space {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .time-wrapper {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .item-wrapper {
+            border: solid thin #eee;
+            padding: 1em;
+            margin-left: 0.4em;
+            margin-right: 0.4em;
+            height: 2em;
+            width: 2em;
+        }
+
+        #todays-date {
+            font-size: xx-large;
+            font-size-adjust: initial;
+        }
+
+        .item-wrapper-long {
+            border: solid thin #eee;
+            padding: 1em;
+            padding-bottom: 1.5em;
+            margin: 0.2em;
+            height: 1.5em;
+            width: 3em;
+        }
+
+
+        .item-wrapper-label {
+            font-size: 1em;
+            text-align: center;
+            width: 100%;
+            margin: auto;
+        }
+    </style>
+    <div class="time-space">
+        <div class="time-wrapper">
+            <div class="item-wrapper">
+                <span class="hour"></span><br>
+                <span class="item-wrapper-label">HR</span>
+            </div>
+            <div class="item-wrapper">
+                <span class="min"></span><br>
+                <span class="item-wrapper-label">MIN</span>
+            </div>
+            <div class="item-wrapper">
+                <span class="sec"></span><br>
+                <span class="item-wrapper-label">SEC</span>
+            </div>
+
+            <!-- <script src="assets/js/clock.js"></script> -->
+
+
+        </div>
+        <div class="time-wrapper">
+            <span id="todays-date">Friday</span>
+        </div>
+
+    </div>
+</template>
+<template id="weather-info-template">
+    <style>
+        .item-wrapper {
+            border: solid thin #eee;
+            padding: 1em;
+            margin-left: 0.4em;
+            margin-right: 0.4em;
+            height: 2em;
+            width: 2em;
+        }
+
+        .item-wrapper-long {
+            border: solid thin #eee;
+            padding: 1em;
+            padding-bottom: 1.5em;
+            margin: 0.2em;
+            height: 1.5em;
+            width: 3em;
+        }
+
+
+        .item-wrapper-label {
+            font-size: 1em;
+            text-align: center;
+            width: 100%;
+            margin: auto;
+        }
+    </style>
+    <div class="item-wrapper-long">
+        <span id="weather">100</span><sup>0</sup><span>C</span><br>
+        <span class="item-wrapper-label">02:00</span>
+    </div>
+    <!-- Paramenters: Period type: day or hours, contents, class -->
+</template>
+<template id="example">
+    <h2>Go to Sleep</h2>
+    <h2>Go to Sleep</h2>
+</template>

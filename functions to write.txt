@@ -1,0 +1,15 @@
+functions to write
+
+clock.js
+map.api.js
+weather.api.js
+
+
+Checklist
+WCAG
+semantic
+
+manifest
+service worker
+web workers
+DB

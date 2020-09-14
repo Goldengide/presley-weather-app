@@ -1,0 +1,21 @@
+{
+    "name": "Presley Weather Cast",
+    "short_name": "Presley Weather Cast",
+    "icons": [
+        {
+            "src": "android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#333333",
+    "background_color": "#666666",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation":"portrait-primary"
+}
