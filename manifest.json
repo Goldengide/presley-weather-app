@@ -17,9 +17,7 @@
     "description": "This app was created to test my knowledge in Progressive Web Apps, Lol I'm still coming up",
     "lang": "en-US",
     "scope": "/",
-    "serviceworker": {
-        "src": 
-    }
+
 
 
 
